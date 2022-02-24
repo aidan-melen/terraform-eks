@@ -4,7 +4,6 @@ Deploys the AWS EKS Control Plane
 
 ℹ️ Please see the [terraform-aws-modules/terraform-aws-eks](https://github.com/terraform-aws-modules/terraform-aws-eks) Github repository for more information.
 
-
 ## Usage
 
 To run this example you need to execute:
