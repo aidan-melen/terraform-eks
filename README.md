@@ -4,6 +4,9 @@ Deploys the AWS EKS Control Plane
 
 ℹ️ Please see the [terraform-aws-modules/terraform-aws-eks](https://github.com/terraform-aws-modules/terraform-aws-eks) Github repository for more information.
 
+## Objective
+
+Attach an [Amazon EKS managed node group](https://docs.aws.amazon.com/eks/latest/userguide/managed-node-groups.html) to the EKS Control Plane.
 
 ## Usage
 
