@@ -24,9 +24,7 @@ Note that this example may create resources which cost money. Run `terraform des
 
 ## Providers
 
-| Name | Version |
-|------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 4.2.0 |
+No providers.
 
 ## Modules
 
@@ -37,9 +35,7 @@ Note that this example may create resources which cost money. Run `terraform des
 
 ## Resources
 
-| Name | Type |
-|------|------|
-| [aws_kms_key.eks](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/kms_key) | resource |
+No resources.
 
 ## Inputs
 
@@ -50,4 +46,5 @@ No inputs.
 | Name | Description |
 |------|-------------|
 | <a name="output_eks"></a> [eks](#output\_eks) | EKS Cluster |
+| <a name="output_vpc"></a> [vpc](#output\_vpc) | EKS Cluster |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
