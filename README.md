@@ -39,12 +39,15 @@ No resources.
 
 ## Inputs
 
-No inputs.
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_aws_region"></a> [aws\_region](#input\_aws\_region) | The AWS Region | `string` | `"us-west-2"` | no |
+| <a name="input_name"></a> [name](#input\_name) | The name for the EKS workshop resources | `string` | `"terraform-eks-workshop"` | no |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| <a name="output_eks"></a> [eks](#output\_eks) | EKS Cluster |
-| <a name="output_vpc"></a> [vpc](#output\_vpc) | EKS Cluster |
+| <a name="output_eks"></a> [eks](#output\_eks) | AWS EKS Cluster |
+| <a name="output_vpc"></a> [vpc](#output\_vpc) | AWS VPC |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->

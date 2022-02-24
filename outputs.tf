@@ -1,9 +1,9 @@
 output "vpc" {
-  description = "EKS Cluster"
+  description = "AWS VPC"
   value       = module.vpc
 }
 
 output "eks" {
-  description = "EKS Cluster"
+  description = "AWS EKS Cluster"
   value       = module.eks
 }
